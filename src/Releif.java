@@ -7,7 +7,7 @@ import java.util.Locale;
 class Inquirer {
     final private String FIRST_NAME,LAST_NAME,INFO,SERVICES_PHONE;
 
-    public Inquirer(String firstName, String lastName, String info, String phone) {
+    public Inquirer(String firstName, String lastName, String phone, String info) {
         this.FIRST_NAME = firstName;
         this.LAST_NAME = lastName;
         this.SERVICES_PHONE= phone;
